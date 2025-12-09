@@ -1,0 +1,3 @@
+Heyooo
+
+There's nothing much here tbh I'll just be pushing all the codes I do here, so I get familiar with git and github and also if I need to view them from my phone
