@@ -1,6 +1,6 @@
-# C Practice
+# My Practice Journey
 
-Just a collection of my C practice programs.
+Just a collection of my practice programs.
 
 ```c
 #include <stdio.h>
