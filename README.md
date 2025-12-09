@@ -1,3 +1,11 @@
-Nothing to see here...
+# C Practice
 
-I'll just be pushing all the codes I do here, so I get familiar with git and github and also if I need to view them from my phone...
+Just a collection of my C practice programs.
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello World!\n");
+    return 0;
+}
