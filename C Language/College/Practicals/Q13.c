@@ -1,3 +1,5 @@
+//13.	Write a program to count chars, spaces, tabs and newlines in a file.
+
 #include<stdio.h>
 int main(){
 

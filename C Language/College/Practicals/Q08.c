@@ -1,5 +1,13 @@
-#include <stdio.h>
+/*8. Write a program to implement basic string operations without using in-built functions:
+   a. Find the length of a string.
+   b. Reverse a string.
+   c. Concatenate two strings.
+   d. Compare two strings.
+   e. Palindrome check.
+   f. Count number of words and vowels.
+   g. Find and replace a word in a sentence.*/
 
+#include <stdio.h>
 int main(){
     char a[200], b[200], temp[200], old[50], neww[50], replace_out[300];
     int i, j, k, len=0, flag=1, words=1, vowels=0;

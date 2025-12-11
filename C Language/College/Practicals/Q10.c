@@ -1,5 +1,6 @@
 /*10. Write programs to calculate the factorial of a number entered by the user, 
 using both an iterative function and a recursive function*/
+
 #include<stdio.h>
 long long iter_func(long long a){
   long long fact = 1;
