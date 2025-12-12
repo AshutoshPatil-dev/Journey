@@ -1,6 +1,6 @@
 /*1. Write a program to take two numbers as input and perform basic arithmetic operations such as addition, 
 subtraction, multiplication, and division.*/
-
+ 
 #include<stdio.h>
 int main(){
 int a,b;
