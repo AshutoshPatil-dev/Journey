@@ -94,6 +94,7 @@ int main(){
                 break;
             }
         }
+        
         if(flag){
             for(j=0; neww[j]!='\0'; j++)
                 replace_out[k++] = neww[j];
