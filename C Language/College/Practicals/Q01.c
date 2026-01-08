@@ -10,10 +10,11 @@ scanf("%d %d", &a, &b);
 printf("\nAddition: %d\n", a+b);
 printf("Substraction: %d\n", a-b);
 printf("Multiplication: %d\n", a*b);
-if(b != 0)
+if(b != 0){
  printf("Division: %.2f \n", (float)a/b);
-else
+ }
+else{
  printf("Can't divide by 0");
- 
+ }
  return 0;
 }
