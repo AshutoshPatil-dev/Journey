@@ -1,12 +1,11 @@
-fibo = int(input("Enter the term till you want the fibonacci: "))
+#Program to display Fibonacci series up to n terms. 
+fibo = int(input("Enter number of terms: "))
 
 a = 0
 b = 1
-i = 0
-print(a)
-print(b)
+
 for i in range(fibo-1):
- res = a + b
- print(res)
- a = b
- b = res
+    print(a, end=" ")
+    res = a + b
+    a = b
+    b = res
