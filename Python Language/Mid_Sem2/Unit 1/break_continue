@@ -1,0 +1,18 @@
+#In break it exits the whole loop
+def breakk():
+    for i in range(5):
+        if i == 3:
+            break
+        else:
+            print(i)
+
+#In continue it just skips that current going on iteration
+def continuee():
+    for i in range(5):
+        if i == 3:
+            continue
+        else:
+            print(i)
+
+breakk()
+continuee()
