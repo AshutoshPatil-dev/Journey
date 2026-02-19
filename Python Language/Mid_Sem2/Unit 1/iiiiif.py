@@ -10,12 +10,12 @@ if a == 2:
 if a == 1:
     print("We have got a winner")
 else:
-    print("Uh, oh! You lost")
+    print("Uhhh ooohhhh")
 
 #if-elif-else statement
 if a == 1:
-    print("Woo hoo, you won!")
+    print("You won but at what cost...")
 elif a == 2:
-    print("Really?")
+    print("RIP")
 else:
-    print("Try again...")
+    print("Keep trying, you'll give up eventually")
