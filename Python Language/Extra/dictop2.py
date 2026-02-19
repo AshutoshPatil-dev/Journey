@@ -15,18 +15,17 @@ def colours():
             print("Exiting")
             break
 
+t = ("Hello" ,"Python", "Test", "Python")
+
 def ind_find():
 
-    t = ("Hello" ,"Python", "Test", "Python")
-
     print(t)
-
     value = input("Enter the value you want to find index of: ")
 
     print(f"Index of {value} is: {t.index(value)}")
     print(f"Count of {value} is: {t.count(value)}")
 
-    t = ("Hello" ,"Python", "Test", "Python")
+def app():
     print(t)
     value = input("Enter a value to append: ")
     list_tuple = list(t)
@@ -36,4 +35,6 @@ def ind_find():
     value = input("Enter a value to remove: ")
     list_tuple.remove(value)
     print(tuple(list_tuple))
+
+colours()
 
