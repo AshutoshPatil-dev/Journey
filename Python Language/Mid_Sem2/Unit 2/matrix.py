@@ -1,49 +1,44 @@
-r = int(input("Enter rows: "))
-c = int(input("Enter columns: "))
+r = int(input("Enter the No. of rows: "))
+c = int(input("Enter the No. of columns: "))
 
-# input and print matrix
 matrix = []
+
 for i in range(r):
     row = []
     for j in range(c):
-        row.append(int(input(f"Enter element [{i}][{j}]: ")))
+        a = int(input(f"Enter the element [{i}][{j}]: "))
+        row.append(a)
     matrix.append(row)
-    
-print("Matrix:")
+
 for i in matrix:
     print(i)
 
-#Transpose
+
 def tran():
     t = []
+    print("\nTranspose:")
     for i in range(c):
         row = []
         for j in range(r):
             row.append(matrix[j][i])
         t.append(row)
-
-    print("\nTransspose:")
     for i in t:
         print(i)
 
-
-
-def sy():
+def sys():
     if r != c:
-        print("\nMatrix is not symmetric.")
+        print("Not symmetric")
     else:
-        sym = True
+        sys = True
         for i in range(r):
             for j in range(c):
                 if matrix[i][j] != matrix[j][i]:
-                    sym = False
-                    break
-
-
-        if sym:
-            print("\nIt's symmetric.")
+                    sys = False
+        if sys:
+            print("Symmetric")
         else:
-            print("\nIt ain't symmetric boi..")
+            print("Not symmetric")
 
 tran()
-sy()
+print()
+sys()
