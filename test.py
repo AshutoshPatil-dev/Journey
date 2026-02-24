@@ -1,4 +1,2 @@
-for i in range(5):
-    print(i)
-else:
-    print(2)
+l1 = [1,2,3]
+print(*l1)
