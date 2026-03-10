@@ -2,4 +2,4 @@
 .vscode/
 a.out
 __pycache__
-.py
+*.py
