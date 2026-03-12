@@ -17,4 +17,3 @@ match a:
   b = float(input("Enter the breadth: "))
   area = l * b
   print("The area of rectangle is: ",area)
-  

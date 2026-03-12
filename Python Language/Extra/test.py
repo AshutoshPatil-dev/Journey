@@ -39,4 +39,4 @@ def dictop():
     del student["Name"]
     print(student)
 
-dictionary()
+dictop()
