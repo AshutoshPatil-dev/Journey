@@ -5,6 +5,7 @@ class bank:
         self.bal = 0
 
     def inputs(self):
+     while 1:
         self.ac_no = int(input("Enter your Account Number: "))
         self.name = input("Enter the name of the owner: ")
 
@@ -21,7 +22,8 @@ class bank:
             else:
                 print("Withdrawl amount is greater than balance")
         elif op == 3:
-            print("Exiting..")
+            print("Exiting")
+            return
 
         
     def acc_details(self):
