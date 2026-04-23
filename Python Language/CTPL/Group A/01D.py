@@ -1,6 +1,6 @@
-ts = float(input("Total Selling price of 10 items: "))
+ts = float(input("Total Selling price of 10 items: ")) 
 tp = float(input("Total profit earned on them: "))
 
 cp = ts - tp
 
-print("The cost price of one item is: ", cp/10)
+print(f"The cost price of one item is: {cp/10}")
